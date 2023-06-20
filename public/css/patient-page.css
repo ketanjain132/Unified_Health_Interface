@@ -1,0 +1,580 @@
+.logo-parent {
+  position: absolute;
+  top: 27px;
+  left: 11.5px;
+  width: 80.17px;
+  height: 389.04px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 8.977909088134766px 13.021163940429688px
+    var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-25xl);
+  transform: rotate(0.03deg);
+  transform-origin: 0 0;
+}
+.book-appointments,
+.dashboard1,
+.logo,
+.logout,
+.past-appointments {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 61.02px;
+  height: 59.98px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.book-appointments,
+.dashboard1,
+.logo,
+.past-appointments {
+  position: relative;
+  flex-shrink: 0;
+  transform: rotate(-0.03deg);
+  transform-origin: 0 0;
+  background-image: url(../images/logo@3x.png);
+}
+.book-appointments,
+.dashboard1,
+.past-appointments {
+  background-image: url(../images/dashboard@3x.png);
+}
+.book-appointments,
+.past-appointments {
+  background-image: url(../images/bookappointments@3x.png);
+}
+.past-appointments {
+  background-image: url(../images/pastappointments@3x.png);
+}
+.logout {
+  position: absolute;
+  bottom: 53.12px;
+  left: 20.32px;
+  background-image: url(../images/logout@3x.png);
+}
+.patient-page-child {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    width: 1779px;
+    object-fit: cover;
+  }
+  .patient-page-inner {
+    position: absolute;
+    height: calc(100% + 1px);
+    top: 0;
+    bottom: -1px;
+    left: 1px;
+    max-height: 100%;
+    width: 140px;
+  }
+  .patient-page-child1,
+  .patient-page-child2 {
+    position: absolute;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .patient-page-child1 {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 141px;
+    width: 327px;
+  }
+  .patient-page-child2 {
+    height: calc(100% - 28px);
+    width: calc(100% - 102px);
+    top: 16px;
+    right: 73px;
+    bottom: 12px;
+    left: 29px;
+    border-radius: var(--br-66xl);
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 206.22px;
+    left: 160.91px;
+    border-radius: 25px;
+    background-color: var(--color-gainsboro);
+    width: 1186px;
+    height: 455px;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .frame-child1 {
+    position: absolute;
+    top: calc(50% - 463.96px);
+    left: 0;
+    background-color: var(--color-black);
+    width: 103px;
+    height: 927.47px;
+  }
+  .book-appointments1,
+  .dashboard2,
+  .logo1,
+  .logout1,
+  .past-appointments1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 61.02px;
+    height: 59.98px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .logout1 {
+    position: absolute;
+    bottom: 53.12px;
+    left: 20.32px;
+    background-image: url(./public/logout1@3x.png);
+  }
+  .book-appointments1,
+  .dashboard2,
+  .logo1,
+  .past-appointments1 {
+    position: relative;
+    transform: rotate(-0.03deg);
+    transform-origin: 0 0;
+    background-image: url(./public/logo1@3x.png);
+  }
+  .book-appointments1,
+  .dashboard2,
+  .past-appointments1 {
+    background-image: url(./public/dashboard1@3x.png);
+  }
+  .book-appointments1,
+  .past-appointments1 {
+    background-image: url(./public/bookappointments1@3x.png);
+  }
+  .past-appointments1 {
+    background-image: url(./public/pastappointments1@3x.png);
+  }
+  .logo-group {
+    position: absolute;
+    top: 27px;
+    left: 11.5px;
+    width: 80.17px;
+    height: 389.04px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-9xs) 8.977909088134766px 13.021163940429688px
+      var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: var(--gap-25xl);
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .vector-icon3,
+  .vector-icon4,
+  .vector-icon5 {
+    position: absolute;
+    height: 73.62%;
+    width: 70.33%;
+    top: 10.43%;
+    right: 14.82%;
+    bottom: 15.94%;
+    left: 14.84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon4,
+  .vector-icon5 {
+    height: 8.59%;
+    width: 18.91%;
+    top: 6.39%;
+    right: 40.46%;
+    bottom: 85.02%;
+    left: 40.64%;
+  }
+  .vector-icon5 {
+    height: 14.17%;
+    width: 28.49%;
+    top: 79.39%;
+    right: 35.64%;
+    bottom: 6.44%;
+    left: 35.87%;
+  }
+  .iconsaxlinearnotification1,
+  .image-41 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+  }
+  .iconsaxlinearnotification1 {
+    top: 57.62px;
+    right: 148.58px;
+    width: 42.98px;
+    height: 45px;
+    overflow: hidden;
+  }
+  .image-41 {
+    top: 48.14px;
+    right: 70.56px;
+    width: 64px;
+    height: 64.01px;
+    background-image: url(./public/image41@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .track-your-health {
+    position: absolute;
+    width: calc(100% - 857.83px);
+    top: 9.37px;
+    left: 487px;
+    font-weight: 300;
+    text-align: center;
+    display: inline-block;
+    height: 33px;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .logo-icon {
+    border-radius: 50%;
+    position: absolute;
+    top: 48.16px;
+    left: 201px;
+    width: 147.02px;
+    height: 147.06px;
+    object-fit: cover;
+  }
+  .ketan-jain {
+    margin: 0;
+  }
+  .allergies-dont-have,
+  .ketan-jain-male-container {
+    position: absolute;
+    top: 79.33px;
+    left: 407.97px;
+    display: inline-block;
+    width: 205px;
+    height: 91px;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .allergies-dont-have {
+    top: 81.44px;
+    left: 622.97px;
+    width: 264px;
+    height: 89px;
+  }
+  .rectangle-input {
+    cursor: pointer;
+    top: 237.61px;
+    left: 986.9px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-paleturquoise);
+    width: 288px;
+    height: 38px;
+  }
+  .frame-child2,
+  .rectangle-input,
+  .your-appointments-only {
+    position: absolute;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .your-appointments-only {
+    top: 246.62px;
+    left: 997.89px;
+    font-weight: 500;
+    display: inline-block;
+    width: 265px;
+    height: 29px;
+  }
+  .frame-child2 {
+    top: 246.73px;
+    left: 1230.89px;
+    border-radius: 4px;
+    background-color: var(--color-white);
+    width: 23px;
+    height: 24px;
+  }
+  .rectangle-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-paleturquoise);
+    top: 242.24px;
+    left: 201.9px;
+    border-radius: var(--br-mini);
+    width: 201px;
+    height: 36px;
+  }
+  .appointments-history,
+  .frame-child3,
+  .helath-chekups,
+  .rectangle-button {
+    position: absolute;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .frame-child3 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-paleturquoise);
+    top: 240.34px;
+    left: 428.9px;
+    border-radius: var(--br-mini);
+    width: 163px;
+    height: 39px;
+  }
+  .appointments-history,
+  .helath-chekups {
+    top: 249.24px;
+    left: 213.89px;
+    font-size: var(--font-size-mid);
+    font-weight: 500;
+    display: inline-block;
+    width: 188px;
+  }
+  .helath-chekups {
+    top: 249.35px;
+    left: 444.89px;
+  }
+  .dr-first {
+    margin: 0;
+    padding-left: var(--padding-8xl);
+  }
+  .dr-first-surname-container1{
+    position: relative;
+    top: -57px;
+    width: 256px;
+    left: 19.82px;
+    font-size: var(--font-inherit);
+    font-weight: 500;
+    font-family: var(--font-inherit);
+    display: inline-block;
+    height: 33px;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+.group-child1{
+  left: 0.14px;
+  border-radius: var(--br-xl);
+  width: 1111px;
+  height: 78px;
+  object-fit: cover;
+}
+.march-20231{
+  top: -57px;
+  width: 256px;
+  height: 33px;
+  transform-origin: 0 0;
+}
+.view-report1{
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  top: -95px;
+  width: 512px;
+  left: 771.82px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 33px;
+  transform: rotate(0.03deg);
+  transform-origin: 0 0;
+}
+
+.view-report1 {
+  top: -96px;
+  left: 400px;
+}
+.march-20231 {
+  position: relative;
+  left: 12.82px;
+  font-weight: 500;
+  display: inline-block;
+  transform: rotate(0.03deg);
+}
+.prescription1{
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  top: -95px;
+  width: 512px;
+  left: 771.82px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  height: 33px;
+  transform: rotate(0.03deg);
+  transform-origin: 0 0;
+}
+.small-note-like1 {
+  height: 22px;
+}
+.small-note-like1 {
+  position: relative;
+  top: -57px;
+  width: 346px;
+  left: -71px;
+  transform-origin: 0 0;
+}
+.small-note-like1
+{
+  
+  font-weight: 500;
+  display: inline-block;
+  transform: rotate(0.03deg);
+}
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0.03px;
+    border-radius: var(--br-xl);
+    width: 1111px;
+    height: 78px;
+    object-fit: cover;
+  }
+  .prescription,
+  .view-report {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0.46px;
+    left: 954.01px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 142px;
+    height: 33px;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .prescription {
+    top: 3.38px;
+    left: 799.01px;
+    width: 126px;
+    height: 22px;
+  }
+  .appointment-one1 {
+    margin: 0;
+    padding-left: var(--padding-8xl);
+  }
+  .appointment-one,
+  .march-2023,
+  .small-note-like {
+    position: absolute;
+    font-weight: 500;
+    display: inline-block;
+    height: 33px;
+    transform: rotate(0.03deg);
+    transform-origin: 0 0;
+  }
+  .appointment-one {
+    top: 0;
+    left: 0.01px;
+    font-size: var(--font-inherit);
+    font-family: var(--font-inherit);
+    width: 222px;
+  }
+  .march-2023,
+  .small-note-like {
+    top: 3.13px;
+    left: 281.01px;
+    width: 149px;
+  }
+  .small-note-like {
+    top: 2.22px;
+    left: 453.01px;
+    width: 316px;
+    height: 22px;
+  }
+  .view-report-parent {
+    position: absolute;
+    top: 28.01px;
+    left: 15.01px;
+    width: 1096.01px;
+    height: 36.21px;
+  }
+  .group-parent,
+  .rectangle-container,
+  .rectangle-group {
+    position: absolute;
+    top: 0;
+    left: 0.01px;
+    width: 1111.03px;
+    height: 78.53px;
+  }
+  .group-parent,
+  .rectangle-container {
+    top: 96.53px;
+    left: 0;
+  }
+  .rectangle-group-sub{
+    padding-bottom: 10px;
+    border-radius: var(--br-xl);
+    width: 1111px;
+    height: 78px;
+    /* object-fit: cover; */
+    /* background-image: url(../images/rectangle-14@2x.png); */
+  }
+  .group-parent {
+    top: 312.23px;
+    left: 190.82px;
+    width: 1111.04px;
+    height: 330px
+  }
+  .rectangle-parent {
+    position: absolute;
+    height: calc(100% - 42.87px);
+    width: calc(100% - 118.17px);
+    top: 22.86px;
+    right: 81.17px;
+    bottom: 26.01px;
+    left: 37px;
+    border-radius: var(--br-61xl);
+    background: linear-gradient(98.66deg, #cfe8eb, #fdfcf2);
+    overflow: hidden;
+    transform: rotate(-0.03deg);
+    transform-origin: 0 0;
+  }
+  .patient-page {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 729px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }

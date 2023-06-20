@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../static/css/global.css" />
+    <link rel="stylesheet" href="../static/css/past-appointments.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="past-appointments1">
+      <img
+        class="past-appointments-child"
+        alt=""
+        src="../static/images/rectangle-7@2x1.png"
+      />
+
+      <img
+        class="past-appointments-child"
+        alt=""
+        src=".../static/images/rectangle-7@2x1.png"
+      />
+
+      <img
+        class="past-appointments-inner"
+        alt=""
+        src="../static/images/rectangle-61.svg"
+      />
+
+      <img
+        class="past-appointments-child1"
+        alt=""
+        src="../static/images/rectangle-1@2x1.png"
+      />
+
+      <img
+        class="past-appointments-child2"
+        alt=""
+        src="../static/images/rectangle-3@2x.png"
+      />
+
+      <div class="rectangle-parent">
+        
+        <div class="rectangle-div"></div>
+        <a href="../landingpage"><button class="logout"></button></a>
+        <div class="logo-parent">
+          <button class="logo"></button>          
+          <a href="../appointment-requests/{{doctor1.uid}}"><button class="dashboard1"></button>
+          <a href="../upcoming-appointments/{{doctor1.uid}}"><button class="book-appointments"></button></a>
+          <a href="../past-appointments/{{doctor1.uid}}"><button class="past-appointments" id="pastAppointments"></button></a>
+        </div>
+        <button class="image-41"></button>
+        <div class="past-appointments-with">Past appointments with</div>
+        <div class="dr-photo-parent">
+            {{#each user}}
+              <a href="../patient/{{this.uid}}">
+              <img class="dr-photo" alt={{this.image}}  src={{this.image}}  /><img></a>
+              {{!-- <p class="dr-abc">{{this.firstname}} {{this.lastname}}</p> --}}
+            {{/each}}
+        </div>
+
+        <div class="history-of-your-health-checkup-parent">
+          <div class="history-of-your">History Of Your Health Checkups</div>
+          <div class="rectangle-group">
+            {{#each appointment_details}}
+            <div class = "rectangle-group-sub">
+              <img
+                class="group-child"
+                alt=""
+                src="../static/images/rectangle-14@2x.png"
+              />
+            <a href="../patient/{{this.patientid}}">
+              <div class="dr-first-surname-container1">
+                <ul class="dr-first">
+                  {{this.patientname}}
+                </ul>
+              </div>
+            </a>
+              <div class="march-20231">{{this.date}}</div>
+              <div class="small-note-like1">{{this.note}}</div>
+              <button class="prescription1">Prescription</button>
+              <button class="view-report1">View Report</button><br>
+            </div>
+            {{/each}}
+      </div>
+    </div>
+
+    <script>
+      var drPhoto = document.getElementById("drPhoto");
+      if (drPhoto) {
+        drPhoto.addEventListener("click", function (e) {
+          window.location.href = "./doctor-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

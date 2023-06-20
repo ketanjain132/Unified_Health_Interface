@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../static/css/global.css" />
+    <link rel="stylesheet" href="../static/css/patient-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="patient-page">
+      <img
+        class="patient-page-child"
+        alt=""
+        src="../public/images/rectangle-7@2x.png"
+      />
+
+      <img
+        class="patient-page-child"
+        alt=""
+        src="../static/images/rectangle-7@2x.png"
+      />
+
+      <img class="patient-page-inner" alt="" src="../static/images/rectangle-61.svg" />
+
+      <img
+        class="patient-page-child1"
+        alt=""
+        src="../static/images/rectangle-1@2x.png"
+      />
+
+      <img
+        class="patient-page-child2"
+        alt=""
+        src="../static/images/rectangle-3@2x.png"
+      />
+
+      <div class="rectangle-parent">
+        <div class="rectangle-div"></div>
+        <div class="frame-child1"></div>
+        <a href="../landingpage"><button class="logout"></button></a>
+        <div class="logo-parent">
+          <button class="logo"></button>
+          <button class="dashboard1"></button>
+          <a href="./book-appointments/{{user1.uid}}"><button class="book-appointments"></button></a>
+          <a href="./appointments-history/{{user1.uid}}"><button class="past-appointments" id="pastAppointments"></button></a>
+        </div>
+        <button class="image-41"></button>
+        <img class="logo-icon" alt="" src={{user.image}} />
+
+        <div class="ketan-jain-male-container">
+          <p class="ketan-jain">{{user.firstname}} {{user.lastname}}</p>
+          <p class="ketan-jain">{{user.gender}}</p>
+          <p class="ketan-jain">Age: {{user.age}}</p>
+        </div>
+        <input class="rectangle-input" type="checkbox" />
+
+        <div class="your-appointments-only">Your appointments only</div>
+        <div class="frame-child2"></div>
+        <button class="rectangle-button"></button>
+        <button class="frame-child3"></button>
+        <div class="appointments-history">Appointments History</div>
+        <div class="helath-chekups">Helath Chekups</div>
+        <div class="group-parent">
+          <div class="rectangle-group">
+            {{#each appointment_details}}
+            <div class = "rectangle-group-sub">
+              <img
+                class="group-child1"
+                alt=""
+                src="../static/images/rectangle-14@2x.png"
+              />
+              <div class="dr-first-surname-container1">
+                <ul class="dr-first">
+                  {{this.doctorname}}
+                </ul>
+              </div>
+              <div class="march-20231">{{this.date}}</div>
+              <div class="small-note-like1">{{this.note}}</div>
+              <button class="prescription1">Prescription</button>
+              <button class="view-report1">View Report</button><br>
+            </div>
+            {{/each}}
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

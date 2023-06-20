@@ -1,0 +1,320 @@
+.profile-child {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1779px;
+  object-fit: cover;
+}
+.profile-child,
+.profile-inner,
+.profile-item {
+  position: absolute;
+  max-height: 100%;
+}
+.profile-item {
+  height: calc(100% + 1px);
+  top: 0;
+  bottom: -1px;
+  left: 1px;
+  width: 140px;
+}
+.profile-inner {
+  height: calc(100% - 28px);
+  width: calc(100% - 102px);
+  top: 16px;
+  right: 73px;
+  bottom: 12px;
+  left: 29px;
+  border-radius: var(--br-66xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-child21 {
+  position: absolute;
+  top: calc(50% - 463.96px);
+  left: 0;
+  background-color: var(--color-black);
+  width: 103px;
+  height: 927.47px;
+}
+.book-appointments5,
+.dashboard6,
+.logo6,
+.logout6,
+.past-appointments6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 61.02px;
+  height: 59.98px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.logout6 {
+  position: absolute;
+  bottom: 53.12px;
+  left: 20.32px;
+  background-image: url(./public/logout@3x1.png);
+}
+.book-appointments5,
+.dashboard6,
+.logo6,
+.past-appointments6 {
+  position: relative;
+  flex-shrink: 0;
+  transform: rotate(-0.03deg);
+  transform-origin: 0 0;
+  background-image: url(./public/logo11@3x.png);
+}
+.book-appointments5,
+.dashboard6,
+.past-appointments6 {
+  background-image: url(./public/dashboard@3x1.png);
+}
+.book-appointments5,
+.past-appointments6 {
+  background-image: url(./public/bookappointments@3x1.png);
+}
+.past-appointments6 {
+  background-image: url(./public/pastappointments1@3x.png);
+}
+.logo-parent4 {
+  position: absolute;
+  top: 27px;
+  left: 11.5px;
+  width: 80.17px;
+  height: 389.04px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 8.977909088134766px 13.021163940429688px
+    var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-25xl);
+  transform: rotate(0.03deg);
+  transform-origin: 0 0;
+}
+.vector-icon24 {
+  position: absolute;
+  top: 4.7px;
+  right: 6.37px;
+  width: 30.23px;
+  height: 33.13px;
+}
+.vector-icon25,
+.vector-icon26 {
+  position: absolute;
+  height: 8.59%;
+  width: 18.91%;
+  top: 6.39%;
+  right: 40.46%;
+  bottom: 85.02%;
+  left: 40.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon26 {
+  height: 14.17%;
+  width: 28.49%;
+  top: 79.39%;
+  right: 35.64%;
+  bottom: 6.44%;
+  left: 35.87%;
+}
+.iconsaxlinearnotification5,
+.image-46 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  flex-shrink: 0;
+  transform: rotate(-0.03deg);
+  transform-origin: 0 0;
+}
+.iconsaxlinearnotification5 {
+  width: 42.98px;
+  height: 45px;
+  overflow: hidden;
+}
+.image-46 {
+  width: 64px;
+  height: 64.01px;
+  background-image: url(./public/image4@3x1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.iconsaxlinearnotification-parent1 {
+  position: absolute;
+  top: 43.04px;
+  right: 56.52px;
+  width: 148.04px;
+  height: 82.07px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 5.02020263671875px 13.000030517578125px 12.967864990234375px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  transform: rotate(0.03deg);
+  transform-origin: 0 0;
+}
+.logo-icon1 {
+  position: absolute;
+  top: 48.14px;
+  left: 201px;
+  width: 182px;
+  height: 160.11px;
+  object-fit: cover;
+}
+.delete-photo-icon {
+  top: 98.14px;
+  left: 836px;
+}
+.delete-photo-icon,
+.save-changes-icon,
+.update-photo-icon {
+  position: absolute;
+  width: 170px;
+  height: 32px;
+}
+.update-photo-icon {
+  top: 92.14px;
+  left: 525px;
+}
+.save-changes-icon {
+  right: 184.83px;
+  bottom: 20.99px;
+}
+.last-name,
+.last-name-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.last-name {
+  display: inline-block;
+  width: 170px;
+  height: 19px;
+}
+.last-name-icon {
+  width: 359px;
+  height: 32px;
+}
+.last-name-parent {
+  position: absolute;
+  top: 271.47px;
+  left: 694.88px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  transform: rotate(0.03deg);
+  transform-origin: 0 0;
+}
+.email-icon {
+  position: absolute;
+  top: 149px;
+  left: 1px;
+  width: 359px;
+  height: 32px;
+}
+.email,
+.gender1 {
+  position: absolute;
+  left: 1px;
+  display: inline-block;
+  width: 170px;
+  height: 19px;
+}
+.email {
+  top: 117px;
+}
+.gender1 {
+  bottom: 51px;
+}
+.female-icon,
+.male-icon {
+  position: absolute;
+  bottom: 0;
+  left: 210px;
+  width: 150px;
+  height: 32px;
+}
+.male-icon {
+  left: 1px;
+  width: 157px;
+}
+.first-name,
+.first-name-icon {
+  position: absolute;
+  top: 42px;
+  left: 1px;
+  width: 359px;
+  height: 32px;
+}
+.first-name {
+  top: 4.14px;
+  left: 1.29px;
+  display: inline-block;
+  width: 170px;
+  height: 19px;
+}
+.email-parent {
+  top: 278.24px;
+  left: 206.88px;
+  width: 360px;
+  height: 301px;
+  transform: rotate(0.03deg);
+}
+.address-parent,
+.email-parent,
+.rectangle-parent3 {
+  position: absolute;
+  overflow: hidden;
+  transform-origin: 0 0;
+}
+.address-parent {
+  top: 272.74px;
+  right: 181.95px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  transform: rotate(0.03deg);
+}
+.rectangle-parent3 {
+  height: calc(100% - 42.87px);
+  width: calc(100% - 118.17px);
+  top: 24.86px;
+  right: 81.17px;
+  bottom: 18.01px;
+  left: 37px;
+  border-radius: var(--br-61xl);
+  background: linear-gradient(180deg, #fff, #d7ddd3);
+  transform: rotate(-0.03deg);
+}
+.profile {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 729px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
